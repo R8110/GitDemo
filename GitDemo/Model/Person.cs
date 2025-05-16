@@ -9,5 +9,6 @@ namespace GitDemo.Model
         public List<string> Skills { get; set; } = new();
         public string Address {get;set;}
         public string Name {get;set; }  
+        public string PhoneNumber {get;set; }
     }
 }
