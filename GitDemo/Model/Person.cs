@@ -8,5 +8,7 @@ namespace GitDemo.Model
 {
     public class Person
     {
+        public DateTime DateOfBirth { get; set; }
     }
+
 }
