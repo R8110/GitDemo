@@ -7,5 +7,6 @@ namespace GitDemo.Model
     {
         public DateTime DateOfBirth { get; set; }
         public List<string> Skills { get; set; } = new();
+        public string Address {get;set;}
     }
 }
